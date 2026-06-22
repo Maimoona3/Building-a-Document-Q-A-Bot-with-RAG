@@ -17,16 +17,13 @@ git clone https://github.com/Maimoona3/Building-a-Document-Q-A-Bot-with-RAG
 cd RAG_Document_Question_Answering
 2. Create and Activate a Virtual Environment 
 Create a virtual environment and activate it to isolate project dependencies:
-
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 3. Install Dependencies 
 Install the required Python libraries using the provided requirements.txt file:
-
 pip install -r requirements.txt
 4. Obtain API Keys
 Get your API keys for:
-
 Cohere: Sign up at Cohere to obtain an API key.
 Pinecone: Sign up at Pinecone to obtain an API key. These keys will be entered via the Streamlit interface when running the app.
 5. Run the Application 
@@ -35,15 +32,11 @@ cd src
 streamlit run app.py
 6. Access the Application 
 Once the application is running, open your browser and navigate to the URL provided by Streamlit, typically http://localhost:8501.
-
 7. Upload a Document 
 Use the interface to upload a PDF file containing the content you want to query.
-
 8. Ask Questions 
 Enter your question in the query box. The chatbot will:
-
 Retrieve relevant chunks of text from the uploaded document.
-
 Generate a precise and context-aware response.
 
 **Project Structure**
