@@ -31,7 +31,6 @@ Cohere: Sign up at Cohere to obtain an API key.
 Pinecone: Sign up at Pinecone to obtain an API key. These keys will be entered via the Streamlit interface when running the app.
 5. Run the Application 
 Launch the Streamlit application:
-
 cd src
 streamlit run app.py
 6. Access the Application 
@@ -48,11 +47,11 @@ Retrieve relevant chunks of text from the uploaded document.
 Generate a precise and context-aware response.
 
 **Project Structure**
-├── app.py                # Main application file with Streamlit interface
-├── vectorstore.py        # Handles PDF processing, embedding, and retrieval
-├── chatbot.py            # Handles user interaction and response generation
-├── requirements.txt      # Project dependencies
-├── README.md             # Project documentation
+app.py                # Main application file with Streamlit interface
+vectorstore.py        # Handles PDF processing, embedding, and retrieval
+chatbot.py            # Handles user interaction and response generation
+requirements.txt      # Project dependencies
+README.md             # Project documentation
 
 **Future Enhancements**
 Add support for multi-language documents. Enhance the UI with multi-document support and export options for chat history. Enable deployment to cloud platforms for wider accessibility. Integrate additional vector databases for broader compatibility.
