@@ -13,7 +13,7 @@ Follow the steps below to run and interact with the project:
 1. Clone the Repository
 Clone the repository to your local system using the following command:
 
-git clone https://github.com/Maimoona3/RAG_Document_Question_Answering.git
+git clone https://github.com/Maimoona3/Building-a-Document-Q-A-Bot-with-RAG.git
 cd RAG_Document_Question_Answering
 2. Create and Activate a Virtual Environment 
 Create a virtual environment and activate it to isolate project dependencies:
